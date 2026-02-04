@@ -1,6 +1,6 @@
 cask "rustpix" do
-  version "1.0.0"
-  sha256 "PLACEHOLDER_SHA256"
+  version "1.0.4"
+  sha256 "660f40f47ec540ae239f2115fd7f4f1d72755252672616bc89446c1325fdd2d2"
 
   url "https://github.com/ornlneutronimaging/rustpix/releases/download/v#{version}/rustpix-#{version}-macos-arm64.dmg"
   name "Rustpix"
