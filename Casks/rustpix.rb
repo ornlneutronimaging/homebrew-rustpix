@@ -7,7 +7,7 @@ cask "rustpix" do
   desc "High-performance TPX3 pixel detector data processing GUI"
   homepage "https://github.com/ornlneutronimaging/rustpix"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "Rustpix.app"
